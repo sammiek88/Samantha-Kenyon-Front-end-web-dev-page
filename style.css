@@ -31,6 +31,7 @@ h1 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  line-height: 3;
 }
 
 .buttons {
@@ -74,6 +75,8 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .email-link {
@@ -86,4 +89,20 @@ p {
 
 .img-fluid {
   max-width: 70%;
+}
+
+.project-link {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
 }
