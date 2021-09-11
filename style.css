@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --secondary-color: #f5f2fe;
+}
+
+body {
+  max-width: 800 px;
+  margin: 60px auto;
+  text-align: center;
+  background: var(--secondary-color);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  display: block;
+  font-size: 48px;
+}
+
+h1 {
+  display: block;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: whitesmoke;
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+}
+
+.about {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--box-shadow);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+}
+
+.paragraphs {
+  display: flex;
+  margin: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 28px;
+}
+
+.img-fluid {
+  max-width: 70%;
+}
