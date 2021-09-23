@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #ff5c58;
+  --primary-color: #506d84;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --secondary-color: #ffedd3;
+  --secondary-color: #f3d5c0;
 }
 
 body {
@@ -34,6 +34,10 @@ h3 {
   line-height: 3;
 }
 
+.navbarCustom {
+  background-color: #506d84;
+}
+
 .imageOfMe {
   border-radius: 10px 100px / 120px;
 }
@@ -55,10 +59,14 @@ h3 {
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
 }
+.about-section {
+  background-color: #d4b499;
+}
 
 .about {
+  background: var(--primary-color);
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: whitesmoke;
   padding: 20px 15px;
   border-radius: 4px;
   margin: 20px;

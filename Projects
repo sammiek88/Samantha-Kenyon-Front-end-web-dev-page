@@ -33,10 +33,6 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/0986a9ce9c.js"
-      crossorigin="anonymous"
-    ></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Samantha Kenyon - Front End Web Development</title>
   </head>
@@ -82,60 +78,21 @@
     <h2 class="mt-5">👋Hi I'm</h2>
     <h1>Samantha Kenyon</h1>
     <h3>ENG Front-end Developer, based in Europe</h3>
-    <img
-      src="src/images/Bright Pink & Yellow Funny Girl Cool Photo Collage.png"
-      alt="Images of me"
-      class="imageOfMe img-fluid"
-    />
 
-    <div class="buttons">
-      <a href="/contact.html" title="Get in touch" class="contact btn-secondary"
-        >Contact Me</a
-      >
-      <a href="/about.html" title="More About me" class="about btn-secondary"
-        >About Me</a
-      >
-    </div>
-    <br />
-    <br />
-
-    <div class="row about-section">
-      <div class="row-fluid d-flex">
-        <div class="col-md-6 d-none d-md-block">
-          <h2>About Me</h2>
-          <p>
-            I have worked within the Technical Support industry for over 5 years
-            and have a variety of skills varing from troubleshooting to customer
-            support skills.
-          </p>
-          <p>
-            I have recently decided to expand my skills and have been learning
-            to code, I don't have as much experience in this area however I'm
-            developing and expanding these skills everyday. Check out my latest
-            project below and see for yourself😎
-          </p>
-
-          <a
-            href="https://github.com/sammiek88"
-            title="See my latest projects"
-            class="contact btn-secondary"
-            >Latest projects</a
-          >
-          <br />
-          <br />
-          <br />
-        </div>
-      </div>
-    </div>
     <div class="container"></div>
     <div class="d-flex">
-      <i class="fas fa-envelope-open-text emailIcon"></i>
+      <img
+        src="src/Images/Weather app image.PNG"
+        alt="Weather App Screenshot"
+        class="img-fluid rounded p-5 shadow-sm d-none d-sm-block"
+      />
       <div class="col-sm-6">
-        <h2>Contact Me</h2>
+        <h2>Weather App</h2>
         <p class="mt-3 d-sm-block">
-          Want to get in touch? ...perhaps you have a new project I could help
-          with or you would like to know about me. Please feel free to email me,
-          I'd love to chat!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+          eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
         </p>
 
         <a
