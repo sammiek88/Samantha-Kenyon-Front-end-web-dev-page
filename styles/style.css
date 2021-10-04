@@ -123,6 +123,13 @@ p {
 
 .footerImage {
   font-size: 28px;
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 10px 10px;
+}
+
+.footerImage:hover {
+  color: #889eaf;
 }
 
 .aboutmeh1 {
