@@ -82,9 +82,10 @@ h3 {
 }
 
 .emailIcon {
-  font-size: 412px;
+  font-size: 276px;
   padding-right: 30px;
   margin: 10px;
+  color: var(--primary-color);
 }
 
 .homepage-link {
