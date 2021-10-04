@@ -156,6 +156,14 @@ p {
   margin-top: 100px;
 }
 
+.contact-section {
+  background-color: #d4b499;
+}
+
+.weather-app-section {
+  background-color: #d4b499;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
